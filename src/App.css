@@ -1,38 +1,57 @@
-.App {
+
+.box{
+  width: 500px;
+  height: 500px;
+}
+
+.card1 {
+display: flex;
+justify-content: center;
+align-items: center;
+  width: auto;
+  height: 400px;
+  background-color: rgb(151, 223, 103);
+  border-radius: 15px;
+  color: rgb(26, 23, 23);
+
+}
+
+
+.link{
+  text-decoration: none;
+}
+h2,h1,h3,h4{
+  color: cornsilk;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input{
+  background-color: rgb(94, 94, 230);
   color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 20px ;
+}
+textarea{
+  background-color: rgb(94, 94, 230);
+  color:white;
+  border-radius: 5px;
+}
+::placeholder{
+color: aliceblue;
+opacity: .3;
+}
+.btns{
+  width: 80%;
+  font-weight: 800 !important;
+  font-size: 1rem !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btns:hover{
+  margin: 20px 0 20px 0;
+  background-color: rgba(94, 103, 230, 0.4) !important; 
+  color: white !important;
+}
+.cont{
+  background-color: aqua !important;
 }
